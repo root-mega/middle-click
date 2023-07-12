@@ -15,7 +15,11 @@ app.get('/middle.gif', (req, res, next) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
 // Start the server
-app.listen(3000, () => {
-  console.log('Server started on port 3000');
+app.listen(80, () => {
+  console.log('Server started on port 80');
 });
