@@ -11,7 +11,7 @@ app.get('/middle.gif', (req, res, next) => {
     res.sendFile(filePath);
   } else {
     // Redirect to another website
-    res.redirect('https://google.com');
+    res.redirect('https://pornhub.com');
   }
 });
 
